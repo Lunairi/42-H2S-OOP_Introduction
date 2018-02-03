@@ -1,21 +1,22 @@
-[1mCan you even object orient?[0m
-     [4mex00[0m
-          Object-oriented programming: [1m10[0m => [1m[33m10[0m
-          Rigor: [1m10[0m => [1m[33m10[0m
-     [4mex01[0m
-          Object-oriented programming: [1m10[0m => [1m[33m20[0m
-          Rigor: [1m10[0m => [1m[33m20[0m
-     [4mex02[0m
-          Object-oriented programming: [1m15[0m => [1m[33m35[0m
-          Rigor: [1m15[0m => [1m[33m35[0m
-     [4mex03[0m
-          Object-oriented programming: [1m20[0m => [1m[33m55[0m
-          Rigor: [1m20[0m => [1m[33m55[0m
-     [4mex04[0m
-          Object-oriented programming: [1m20[0m => [1m[33m75[0m
-          Rigor: [1m20[0m => [1m[33m75[0m
-     [4mex05[0m
-          Object-oriented programming: [1m25[0m => [1m[32m100[0m
-          Rigor: [1m25[0m => [1m[32m100[0m
+lunairi@Arta:~/42/OOPINtro/scale$ ruby scale_validator.rb classes
+Can you even object orient?
+     ex00
+          Object-oriented programming: 10 => 10
+          Rigor: 10 => 10
+     ex01
+          Object-oriented programming: 10 => 20
+          Rigor: 10 => 20
+     ex02
+          Object-oriented programming: 15 => 35
+          Rigor: 15 => 35
+     ex03
+          Object-oriented programming: 20 => 55
+          Rigor: 20 => 55
+     ex04
+          Object-oriented programming: 20 => 75
+          Rigor: 20 => 75
+     ex05
+          Object-oriented programming: 25 => 100
+          Rigor: 25 => 100
 
-[32mall good[0m: classes is now [32mvalid[0m !
+all good: classes is now valid !
