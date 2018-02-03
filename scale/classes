@@ -1,0 +1,136 @@
+# **************************************************************************** #
+#                                                                              #
+#               classes.en.yml for CLASSES                                     #
+#               Made by : Michael Lu <mlu@student.42.fr>                       #
+#                                                                              #
+# **************************************************************************** #
+
+---
+
+name: classes
+lg: en
+is_primary: true
+comment: ''
+
+introduction_md: |
+  To ensure this evaluation goes smoothly, please respect the following set
+  of rules :
+  - Please remain courteous, polite, respectful and constructive at all 
+    times during this exchange. The trust bond between the school's 
+    communauty and yourself depends on it.
+  - Should you notice any malfunctions within the submitted project, 
+    make sure you take the time to discuss those with the student (or 
+    group of students) being graded.
+  - Keep in mind that some subjects can be interpreted differently.
+    If you come accross a situation where the student you're grading 
+    has interpreted the subject differently than you, try and judge
+    fairly whether their interpretation is acceptable or not, and grade
+    them accordingly. Our peer-evaluation system can only work if you
+    both take it seriously.
+disclaimer_md: ''
+
+guidelines_md: |
+  - You may only evaluate whatever is in the GiT submission directory of 
+    the student you are grading.
+  - Make sure to check wether the GiT submission directory
+    belongs to the student (or group) you're grading, and that
+    it's the right project.
+  - Make sure no mischievous aliases have been used to trick you 
+    into correcting something that is not actually in the official
+    submitted directory.
+  - Any script created to make this evaluation session easier - whether
+    it was produced by you or the student being graded - must be  
+    checked rigorously in order to avoid bad surprises.
+  - If the student who is grading this project hasn't done the
+    project him/herself yet, he/she must read the whole topic 
+    before starting the evaluation session.
+  - Use the flags available to you on this scale in order to report
+    a submission directory that is empty, non-functional, that contains
+    a norm errors or a case of cheating, etc...
+    In this case, the evaluation session ends and the final grade is 0
+    (or -42, in case of cheating). However, unless the student has
+    cheated, we advise you to go through the project together in order 
+    for the two (or more) of you to identify the problems that may have 
+    led for this project to fail, and avoid repeating those mistakes for
+    future projects.
+correction_number: 5
+duration: 2
+
+sections:
+
+- name: Can you even object orient?
+  position: 1
+  description: 'Time to learn how to object orient! For all these projects check the PDF to make sure they are only instanciating the class specified'
+
+  questions:
+  - name: ex00
+    position: 1
+    guidelines: |
+      Check to make sure there is a class with a constructor that prints "Hello World"
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 10
+      name: Object-oriented programming
+    - percentage: 10
+      name: Rigor
+
+  - name: ex01
+    position: 2
+    guidelines: |
+      Check to make sure a second class is made that calls the first class constructor that prints "Hello World"
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 10
+      name: Object-oriented programming
+    - percentage: 10
+      name: Rigor
+
+  - name: ex02
+    position: 3
+    guidelines: |
+      Check to make sure you can pass a parameter and it gets printed through the firsrt class' constructor.
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 15
+      name: Object-oriented programming
+    - percentage: 15
+      name: Rigor
+
+  - name: ex03
+    position: 4
+    guidelines: |
+      Make sure that the method is made, it outputs when the method is called and everything else behaves like described in the PDF.
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 20
+      name: Object-oriented programming
+    - percentage: 20
+      name: Rigor
+
+  - name: ex04
+    position: 5
+    guidelines: |
+      Make sure that the method is made, it outputs when the method is called and everything else behaves like described in the PDF. Double check methods are in the correct classes.
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 20
+      name: Object-oriented programming
+    - percentage: 20
+      name: Rigor
+
+  - name: ex05
+    position: 6
+    guidelines: |
+      Make sure that getHobby method works, and you are displaying the output in the main. Check to make sure everything else behaves like described in the PDF>
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 25
+      name: Object-oriented programming
+    - percentage: 25
+      name: Rigor
