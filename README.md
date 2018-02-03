@@ -1,4 +1,4 @@
-#42-H2S-OOP_Introduction
+# 42-H2S-OOP_Introduction
 
 A introductory to OOP projects for high schoolers
 
@@ -14,4 +14,4 @@ Ex03: You now need to create a method inside your first class called Hello which
 
 Ex04: You now need to create a method inside your second class called number which will randomly generate a number from 1 to 6. It than will pass it to Hello method in first class which will print out "Hello <name>, your number is <number>". When any method is called it must put some sort of output for itself. You must instanciate the second class only in your main.
 
-Ex05: Your second class will now take a second parameter called hobby and it must be stored as a variable. You will write a method called getHobby in your second class that returns this variable. In your main you need to print out "Your hobby is <hobby>" where <hobby> must be returned from the getHobby method.
+Ex05: Your second class will now take a second parameter called hobby and it must be stored as a variable. You will write a method called getHobby in your second class that returns this variable. In your main you need to print out "Your hobby is <hobby>" where <hobby> must be returned from the getHobby method. You must instanciate the second class only in your main.
