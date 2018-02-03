@@ -11,8 +11,6 @@
 ##* ************************************************************************** */
 
 class	SecondClass < FirstClass
-	
-		attr_accessor :hobby
 
 		def initialize(name, hobby)
 			super(name)
@@ -23,6 +21,10 @@ class	SecondClass < FirstClass
 		def number
 			puts "Number method in SecondClass called"
 			Hello(rand(1..6))
+		end
+
+		def getHobby
+			return @hobby
 		end
 	
 end

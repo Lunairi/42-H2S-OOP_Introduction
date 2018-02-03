@@ -14,4 +14,4 @@ require_relative "first.class"
 require_relative "second.class"
 
 Test = SecondClass.new("Lunairi", "Programming")
-puts "Your hobby is " + Test.hobby
+puts "Your hobby is " + Test.getHobby
